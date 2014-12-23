@@ -1,6 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
     <title>Contacts</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
@@ -71,10 +73,7 @@
             <div class="container">
                 <div class="row">
                     <div class="grid_12">
-                        <iframe class="map"
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094"
-                                style="border:0">
-                        </iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3507.440313133426!2d77.03159449999997!3d28.46628350000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssector+12%2C+pocket+c%2Cgurgaon%2Charyana%2Cindia!5e0!3m2!1sen!2sin!4v1419155337849" width="1180" height="450" frameborder="0" style="border:0"></iframe>
                     </div>
                 </div>
                 <div class="row">
@@ -85,21 +84,13 @@
                             </h2>
                             <address>
                                 <p class="text_7 color_6">
-                                    Lorem ipsum dolor sit amet, consecteturpiscinger elit <br/>
-                                    um dolor sit amet, consecteturpiscing.
+                                    If you are interested in learning more about Microsoft SharePoint, Project Server (EPM/PPM), SharePoint based simple Project, Microsoft .net, Microsoft Dynamics CRM, Project Server, Please Feel free Contact Us.
                                 </p>
                                 <p class="text_8">
                                     Our <a href="#" rel="nofollow">premium services</a> go with 24/7 support. <br/>
                                     <br/>
-                                    If you have any questions about customization of themes, address <br/>
-                                    to guys from <a href="#" rel="nofollow">TemplateTuning</a>. Note that it's a paid service. <br/>
-                                    <br/>
                                     ESWN Technologies Private Limited <br/>
-                                    9870 St Vincent Place, <br/>
-                                    Glasgow, DC 45 Fr 45. <br/>
-                                    Telephone: +1 800 603 6035 <br/>
-                                    FAX: +1 800 889 9898 <br/>
-                                    E-mail: <a href="#">mail@eswn.in</a>
+                                                                     E-mail: <a href="#">mail@eswn.in</a>
                                 </p>
                             </address>
                         </div>
@@ -109,7 +100,7 @@
                             <h2 class="header_2 indent_2">
                                 Contact Form
                             </h2>
-                            <form id="contact-form">
+                            <form id="contact-form" action="contact.php">
                                 <div class="contact-form-loader"></div>
                                 <fieldset>
                                     <div class="row">
@@ -146,8 +137,7 @@
                                     </label>
                                     <div class="btn-wrap">
                                         <a class="btn_3" href="#" data-type="reset">clear</a>
-                                        <a class="btn_3" href="#" data-type="submit">send</a>
-                                    </div>
+                                        <a class="btn_3" href="#" data-type="submit" onclick="submit">send</a>                                    </div>
                                 </fieldset>
                                 <div class="modal fade response-message">
                                     <div class="modal-dialog">
@@ -196,7 +186,7 @@
         <div class="row">
             <div class="grid_12">
                 <p class="info text_4 color_4">
-                    Â© <span id="copyright-year"></span> | <a href="#">Privacy Policy</a> <br/>
+                    © <span id="copyright-year"></span> | <a href="#">Privacy Policy</a> <br/>
                     Website designed by <a href="#" rel="nofollow">ESWN</a>
                 </p>
             </div>
